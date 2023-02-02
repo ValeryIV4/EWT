@@ -1,2 +1,2 @@
-# EWT
-labs EWT Ivashkevich Valery
+# EWT and INIS
+labs EWT and INIS Ivashkevich Valery
