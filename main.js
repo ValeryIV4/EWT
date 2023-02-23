@@ -1,9 +1,9 @@
 let personalMovieDB = {
     privat:false,
     movies:{
-        "Error":6,
-        "GREEN MILE":9,
-        "Forrest Gump":9
+        "Harry Potter":7,
+        "Avengers":9,
+        "Saw":10
     }
 }
 
