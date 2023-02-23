@@ -39,7 +39,7 @@ let row_2 = document.createElement('tr');
 let row_2_data_1 = document.createElement('td');
 row_2_data_1.innerHTML = keys[0];
 let row_2_data_2 = document.createElement('td');
-row_2_data_2.innerHTML = personalMovieDB.movies.Error;
+row_2_data_2.innerHTML = personalMovieDB.movies["Harry Potter"];
 
 row_2.appendChild(row_2_data_1);
 row_2.appendChild(row_2_data_2);
@@ -51,7 +51,7 @@ let row_3 = document.createElement('tr');
 let row_3_data_1 = document.createElement('td');
 row_3_data_1.innerHTML = keys[1];
 let row_3_data_2 = document.createElement('td');
-row_3_data_2.innerHTML = personalMovieDB.movies["GREEN MILE"];
+row_3_data_2.innerHTML = personalMovieDB.movies["Avengers"];
 
 row_3.appendChild(row_3_data_1);
 row_3.appendChild(row_3_data_2);
@@ -61,7 +61,7 @@ let row_4 = document.createElement('tr');
 let row_4_data_1 = document.createElement('td');
 row_4_data_1.innerHTML = keys[2];
 let row_4_data_2 = document.createElement('td');
-row_4_data_2.innerHTML = personalMovieDB.movies["Forrest Gump"];
+row_4_data_2.innerHTML = personalMovieDB.movies["Saw"];
 
 row_4.appendChild(row_4_data_1);
 row_4.appendChild(row_4_data_2);
