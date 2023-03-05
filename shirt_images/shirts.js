@@ -4,25 +4,25 @@ const shirts = [{
     "price": "$19.99",
     "colors": {
         "white": {
-            "front": "shirt_images/beepboop-white-front.png",
-            "back": "shirt_images/beepboop-white-back.png"
+            "front": "beepboop-white-front.png",
+            "back": "beepboop-white-back.png"
         },
         "blue": {
-            "front": "shirt_images/beepboop-blue-front.png",
-            "back": "shirt_images/beepboop-blue-back.png"
+            "front": "beepboop-blue-front.png",
+            "back": "beepboop-blue-back.png"
         },
         "pink": {
-            "front": "shirt_images/beepboop-pink-front.png",
-            "back": "shirt_images/beepboop-pink-back.png"
+            "front": "beepboop-pink-front.png",
+            "back": "beepboop-pink-back.png"
         },
         "red": {
-            "front": "shirt_images/beepboop-red-front.png",
-            "back": "shirt_images/beepboop-red-back.png"
+            "front": "beepboop-red-front.png",
+            "back": "beepboop-red-back.png"
         }
     },
     "default": {
-        "front": "shirt_images/default-m-front.png",
-        "back": "shirt_images/default-m-back.png"
+        "front": "default-m-front.png",
+        "back": "default-m-back.png"
     }
 },
 {
@@ -31,29 +31,29 @@ const shirts = [{
     "price": "$10.99",
     "colors": {
         "white": {
-            "front": "shirt_images/car-white-front.png",
-            "back": "shirt_images/car-white-back.png"
+            "front": "car-white-front.png",
+            "back": "car-white-back.png"
         },
         "blue": {
-            "front": "shirt_images/car-blue-front.png",
-            "back": "shirt_images/car-blue-back.png"
+            "front": "car-blue-front.png",
+            "back": "car-blue-back.png"
         },
         "green": {
-            "front": "shirt_images/car-green-front.png",
-            "back": "shirt_images/car-green-back.png"
+            "front": "car-green-front.png",
+            "back": "car-green-back.png"
         },
         "yellow": {
-            "front": "shirt_images/car-yellow-front.png",
-            "back": "shirt_images/car-yellow-back.png"
+            "front": "car-yellow-front.png",
+            "back": "car-yellow-back.png"
         },
         "red": {
-            "front": "shirt_images/car-red-front.png",
-            "back": "shirt_images/car-red-back.png"
+            "front": "car-red-front.png",
+            "back": "car-red-back.png"
         }
     },
     "default": {
-        "front": "shirt_images/default-w-front.png",
-        "back": "shirt_images/default-w-back.png"
+        "front": "default-w-front.png",
+        "back": "default-w-back.png"
     }
 },
 {
@@ -62,17 +62,17 @@ const shirts = [{
     "description": "Proudly wear your tartan plaid as a patch on your front shirt pocket. And on the back, ask the important question that all CMU students should know the answer to: got plaid?",
     "colors": {
         "white": {
-            "front": "shirt_images/plaid-white-front.png",
-            "back": "shirt_images/plaid-white-back.png"
+            "front": "plaid-white-front.png",
+            "back": "plaid-white-back.png"
         },
         "pink": {
-            "front": "shirt_images/plaid-pink-front.png",
-            "back": "shirt_images/plaid-pink-back.png"
+            "front": "plaid-pink-front.png",
+            "back": "plaid-pink-back.png"
         }
     },
     "default": {
-        "front": "shirt_images/default-w-front.png",
-        "back": "shirt_images/default-w-back.png"
+        "front": "default-w-front.png",
+        "back": "default-w-back.png"
     }
 },
 {
@@ -81,7 +81,7 @@ const shirts = [{
     "price": "$6.99",
     "colors": {
         "white": {
-            "front": "shirt_images/bsuir-white-front.png",
+            "front": "bsuir-white-front.png",
             "back": "shirt_images/bsuir-white-back.png"
         }
     },
