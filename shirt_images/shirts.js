@@ -82,12 +82,12 @@ const shirts = [{
     "colors": {
         "white": {
             "front": "bsuir-white-front.png",
-            "back": "shirt_images/bsuir-white-back.png"
+            "back": "bsuir-white-back.png"
         }
     },
     "default": {
-        "front": "shirt_images/default-m-front.png",
-        "back": "shirt_images/default-m-back.png"
+        "front": "default-m-front.png",
+        "back": "default-m-back.png"
     }
 },
 {
@@ -96,25 +96,25 @@ const shirts = [{
     "price": "$19.99",
     "colors": {
         "white": {
-            "front": "shirt_images/beepboop-white-front.png",
-            "back": "shirt_images/beepboop-white-back.png"
+            "front": "beepboop-white-front.png",
+            "back": "beepboop-white-back.png"
         },
         "blue": {
-            "front": "shirt_images/beepboop-blue-front.png",
-            "back": "shirt_images/beepboop-blue-back.png"
+            "front": "beepboop-blue-front.png",
+            "back": "beepboop-blue-back.png"
         },
         "pink": {
-            "front": "shirt_images/beepboop-pink-front.png",
-            "back": "shirt_images/beepboop-pink-back.png"
+            "front": "beepboop-pink-front.png",
+            "back": "beepboop-pink-back.png"
         },
         "red": {
-            "front": "shirt_images/beepboop-red-front.png",
-            "back": "shirt_images/beepboop-red-back.png"
+            "front": "beepboop-red-front.png",
+            "back": "beepboop-red-back.png"
         }
     },
     "default": {
-        "front": "shirt_images/default-m-front.png",
-        "back": "shirt_images/default-m-back.png"
+        "front": "default-m-front.png",
+        "back": "default-m-back.png"
     }
 },
 {
@@ -123,13 +123,13 @@ const shirts = [{
     "price": "$6.99",
     "colors": {
         "white": {
-            "front": "shirt_images/bsuir-white-front.png",
-            "back": "shirt_images/bsuir-white-back.png"
+            "front": "bsuir-white-front.png",
+            "back": "bsuir-white-back.png"
         }
     },
     "default": {
-        "front": "shirt_images/default-m-front.png",
-        "back": "shirt_images/default-m-back.png"
+        "front": "default-m-front.png",
+        "back": "default-m-back.png"
     }
 },
 ];
