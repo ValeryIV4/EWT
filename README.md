@@ -4,6 +4,7 @@ labs EWT and INIS Ivashkevich Valery 010901
 INIS
 lab 1 ✅
 lab 2 ✅
+lab 3 ✅
 
 EWT
 lab1  ✅
