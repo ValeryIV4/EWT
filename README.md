@@ -10,7 +10,7 @@ EWT
 lab1  ✅
 lab2  ✅
 lab3  ✅
-lab4  ❓
-lab5  ❓
+lab4  ✅
+lab5  ✅
 
 https://frabjous-elf-33c7d2.netlify.app/
