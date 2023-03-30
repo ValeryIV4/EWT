@@ -21,10 +21,10 @@ h1 {
 .grid { 
   display: grid;
   grid-template-areas: 
-  "ar1 ar2 ar3 ar3"
-  "ar1 ar4 ar3 ar3"
-  "ar1 ar5 ar6 ar7"
-  "ar8 ar9 ar9 ar10";
+  "bl1 bl2 bl3 bl3"
+  "bl1 bl4 bl3 bl3"
+  "bl1 bl5 bl6 bl7"
+  "bl8 bl9 bl9 bl10";
 }
 
 article {
@@ -35,32 +35,32 @@ article {
 }
 
 article:nth-child(1){
-  grid-area: ar1;
+  grid-area: bl1;
 }
 article:nth-child(2){
-  grid-area: ar2;
+  grid-area: bl2;
 }
 article:nth-child(3){
-  grid-area: ar3;
+  grid-area: bl3;
 }
 article:nth-child(4){
-  grid-area: ar4;
+  grid-area: bl4;
 }
 article:nth-child(5){
-  grid-area: ar5;
+  grid-area: bl5;
 }
 article:nth-child(6){
-  grid-area: ar6;
+  grid-area: bl6;
 }
 article:nth-child(7){
-  grid-area: ar7;
+  grid-area: bl7;
 }
 article:nth-child(8){
-  grid-area: ar8;
+  grid-area: bl8;
 }
 article:nth-child(9){
-  grid-area: ar9;
+  grid-area: bl9;
 }
 article:nth-child(10){
-  grid-area: ar10;
+  grid-area: bl10;
 }
