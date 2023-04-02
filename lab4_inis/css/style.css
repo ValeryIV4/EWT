@@ -1,0 +1,185 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body
+{   
+    background-color: white !important;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #263764;
+}
+
+.footer-a {
+    color: white;
+}
+
+/* header */
+header {
+    background-color: white;
+    color: #263764;
+}
+
+.top {
+    background-color: #263764;
+    height: 20px;
+}
+
+.header{
+    display: inline-block;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+#title {
+    float: right;
+    margin-right: 60px;
+    padding-top: 10px;
+}
+
+
+/* nav */
+.nav {
+    background-color: #778FB7;
+    color: #263764;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 30px 0 10px 30px;
+}
+
+/* products */
+img {
+    width: 250px;
+    border-radius: 20px 20px 0 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.product {
+    border: 5px solid #263764;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.product_name {
+    color: #263764;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.product_available {
+    margin: 0 0 10px 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.product_button {
+    background-color: #263764;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    padding: 2px 10px;
+    margin: 0 20px 10px;
+}
+
+/* quick view */
+.quickView {
+    height: 250px;
+    background-color: #778FB7;
+    margin-top: 30px;
+    margin-bottom: -145px;
+    visibility: hidden;
+    display: flex;
+}
+
+.previewphoto {
+    width: 200px;
+    border-radius: 0;
+}
+
+.quickView_name {
+    font-size: 20px;
+    margin-bottom: 10px;
+} 
+
+.quickView_info {
+    margin: 20px;
+}
+
+.quickView_button {
+    background-color: #263764;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    padding: 2px 10px;
+    margin-top: 10px;
+}
+
+/* footer */
+footer {
+    background-color: #263764;
+    margin-top: 145px;
+}
+
+.footer{
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+
+/* details */
+.flex {
+    display: flex;
+}
+
+.product_page {
+    max-width: 900px;
+    padding: 20px;
+}
+
+.product_photo {
+    border-radius: 0;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.product_price {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product_desc{
+    margin: 10px 0;
+}
+
+.product_side,
+.product_color {
+    margin: 15px 0;
+}
+
+.button_color {
+    border: 1px solid black;
+    padding: 2px 10px;
+    border-radius: 10px;
+    height: 30px;
+    margin: 0 5px;
+}
