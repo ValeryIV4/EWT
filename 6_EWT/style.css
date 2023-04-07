@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background: rgb(52, 206, 142);
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+  
+/* Задаем начальное состояние кнопки */
+button {
+  background-color: red;
+  position: relative;
+  color: white;
+  margin: 50px;
+  font-size: 20px;
+  animation: none;
+}
+
+/* Определяем анимацию vibration */
+@keyframes vibration {
+  0% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(2px);
+  }
+}
+
+/* Dergarm анимацию и меняем цвет кнопки при наведении курсора */
+button:hover {
+  animation: vibration 0.1s infinite alternate;
+  background-color: green;
+}
