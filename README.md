@@ -14,5 +14,6 @@ lab2  ✅
 lab3  ✅
 lab4  ✅
 lab5  ✅
+la6   ?
 
 https://frabjous-elf-33c7d2.netlify.app/
