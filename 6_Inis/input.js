@@ -4,7 +4,7 @@ var isFollowing = false;
 var lastTouch = null;
 
 element.addEventListener('touchstart', function(event) {
-  if (event.touches.length === 2) {
+  if (event.touches.length == 2) {
     isFollowing = true;
     return;
   }
