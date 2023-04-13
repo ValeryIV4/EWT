@@ -14,11 +14,11 @@ element.addEventListener('touchstart', function(event) {
 });
 
 element.addEventListener('touchmove', function(event) {
-  if (isFollowing) {
+ // if (isFollowing) {
     element.style.left = event.touches[0].pageX + 'px';
     element.style.top = event.touches[0].pageY + 'px';
     event.preventDefault();
-  }
+ // }
 
   if (isDragging && event.touches.length === 1) {
     var touch = event.touches[0];
