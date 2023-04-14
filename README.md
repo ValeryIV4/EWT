@@ -6,7 +6,7 @@ lab 1 ✅
 lab 2 ✅
 lab 3 ✅
 lab 4 ✅
-lab 5  ?
+lab 5 ✅
 
 EWT
 lab1  ✅
@@ -14,6 +14,6 @@ lab2  ✅
 lab3  ✅
 lab4  ✅
 lab5  ✅
-la6   ?
+la6   ✅  lab6 dop
 
 https://frabjous-elf-33c7d2.netlify.app/
