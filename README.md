@@ -1,19 +1,13 @@
 # EWT and INIS
 labs EWT and INIS Ivashkevich Valery 010901
 
-INIS
-lab 1 ✅
-lab 2 ✅
-lab 3 ✅
-lab 4 ✅
-lab 5 ✅
+INIS             EWT   
+lab 1 ✅         lab1  ✅
+lab 2 ✅         lab2  ✅
+lab 3 ✅         lab3  ✅
+lab 4 ✅         lab4  ✅
+lab 5 ✅         lab5  ✅
+lab 6 ?          la6   ✅  lab6 dop
 
-EWT
-lab1  ✅
-lab2  ✅
-lab3  ✅
-lab4  ✅
-lab5  ✅
-la6   ✅  lab6 dop
 
 https://frabjous-elf-33c7d2.netlify.app/
