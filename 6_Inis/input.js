@@ -1,82 +1,44 @@
-let selectedElement = null;
-let isDragging = false;
-let startPosition = { x: 0, y: 0 };
-let offset = { x: 0, y: 0 };
+var element = document.getElementById('mydiv');
+var initialX, initialY;
+var currentX, currentY;
+var xOffset = 0, yOffset = 0;
+var isDragging = false;
+var isFollowing = false;
 
-function handleMouseDown(event) {
-if (event.target.classList.contains('target')) {
-selectedElement = event.target;
-selectedElement.classList.add('selected');
+element.addEventListener('touchstart', function(e) {
+  if (e.touches.length == 1) {
+    initialX = e.touches[0].clientX - xOffset;
+    initialY = e.touches[0].clientY - yOffset;
+    isDragging = true;
+  } else if (e.touches.length == 2) {
+    isFollowing = true;
+  }
+});
 
-startPosition.x = event.clientX;
-startPosition.y = event.clientY;
+element.addEventListener('touchmove', function(e) {
+  if (isFollowing) {
+    var touch = e.touches[0];
+    element.style.left = touch.pageX + 'px';
+    element.style.top = touch.pageY + 'px';
+  } else if (isDragging) {
+    currentX = e.touches[0].clientX - initialX;
+    currentY = e.touches[0].clientY - initialY;
 
-offset.x = selectedElement.offsetLeft;
-offset.y = selectedElement.offsetTop;
+    xOffset = currentX;
+    yOffset = currentY;
 
-isDragging = true;
+    setTranslate(currentX, currentY, element);
+  }
+});
+
+element.addEventListener('touchend', function(e) {
+  initialX = currentX;
+  initialY = currentY;
+
+  isDragging = false;
+  isFollowing = false;
+});
+
+function setTranslate(xPos, yPos, el) {
+  el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
 }
-}
-
-function handleMouseMove(event) {
-if (isDragging) {
-const dx = event.clientX - startPosition.x;
-const dy = event.clientY - startPosition.y;
-
-selectedElement.style.left = offset.x + dx + 'px';
-selectedElement.style.top = offset.y + dy + 'px';
-}
-}
-
-function handleMouseUp(event) {
-if (isDragging) {
-selectedElement.classList.remove('selected');
-selectedElement = null;
-isDragging = false;
-}
-}
-
-function handleDoubleClick(event) {
-if (event.target.classList.contains('target')) {
-selectedElement = event.target;
-selectedElement.classList.add('dragging');
-startPosition.x = event.clientX;
-startPosition.y = event.clientY;
-
-document.addEventListener('mousemove', handleDrag);
-document.addEventListener('mouseup', handleDrop);
-}
-}
-
-function handleDrag(event) {
-const dx = event.clientX - startPosition.x;
-const dy = event.clientY - startPosition.y;
-
-selectedElement.style.left = offset.x + dx + 'px';
-selectedElement.style.top = offset.y + dy + 'px';
-}
-
-function handleDrop(event) {
-selectedElement.classList.remove('dragging');
-selectedElement = null;
-
-document.removeEventListener('mousemove', handleDrag);
-document.removeEventListener('mouseup', handleDrop);
-}
-
-function handleKeyDown(event) {
-if (event.key === 'Escape' && selectedElement !== null) {
-selectedElement.style.left = offset.x + 'px';
-selectedElement.style.top = offset.y + 'px';
-selectedElement.classList.remove('selected');
-selectedElement.classList.remove('dragging');
-selectedElement = null;
-isDragging = false;
-}
-}
-
-document.addEventListener('mousedown', handleMouseDown);
-document.addEventListener('mousemove', handleMouseMove);
-document.addEventListener('mouseup', handleMouseUp);
-document.addEventListener('dblclick', handleDoubleClick);
-document.addEventListener('keydown', handleKeyDown);
